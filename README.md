@@ -51,13 +51,11 @@ Um painel interativo para análise de dados de Pokémon a partir de arquivos CSV
 O painel oferece duas visualizações principais:
 
 ### 1. Distribuição por Tipos
-![Gráfico de Tipos](./types-chart.png)
 - Mostra a frequência de todos os tipos de Pokémon
 - Gráfico de barras interativo
 - Atualização dinâmica com filtros
 
 ### 2. Estágios Evolutivos
-![Gráfico de Evolução](./evolution-chart.png)
 - Classificação em 4 categorias evolutivas
 - Gráfico de pizza colorido
 - Legenda interativa
@@ -67,13 +65,3 @@ O painel oferece duas visualizações principais:
 ### Pré-requisitos
 - Navegador moderno (Chrome, Firefox, Edge)
 - Arquivo CSV com dados de Pokémon
-
-### Passo a Passo
-1. Clone o repositório:
-```bash
-git clone https://github.com/seu-usuario/pokemon-dashboard.git
-```html
-Abra o arquivo index.html no seu navegador preferido
-1. Clique no botão "Escolher arquivo"
-2. Navegue até a pasta contendo seu arquivo pokemon.csv
-3. Selecione o arquivo e clique em "Abrir"

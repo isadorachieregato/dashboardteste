@@ -1,7 +1,4 @@
 # Pokémon Data Analysis Dashboard
-
-![Dashboard Preview](./screenshot.png)
-
 Um painel interativo para análise de dados de Pokémon a partir de arquivos CSV, com visualizações dinâmicas e filtros personalizáveis.
 
 ## ✨ Funcionalidades

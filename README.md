@@ -1,73 +1,79 @@
-Funcionalidades ✨
-✅ Processamento de arquivos CSV:
+# Pokémon Data Analysis Dashboard
 
-Carregue e analise conjuntos de dados de Pokémon usando PapaParse
+![Dashboard Preview](./screenshot.png)
 
-🔍 Filtros dinâmicos:
+Um painel interativo para análise de dados de Pokémon a partir de arquivos CSV, com visualizações dinâmicas e filtros personalizáveis.
 
-Filtre por tipo de Pokémon (primário ou secundário)
+## ✨ Funcionalidades
 
-Busque por nome
+### 📂 Processamento de arquivos CSV
+- Carrega e analisa conjuntos de dados de Pokémon usando PapaParse
+- Suporte para arquivos com colunas como Name, Type1, Type2 e Evolution
 
-📊 Visualizações interativas:
+### 🔍 Filtros dinâmicos
+- Filtra por tipo de Pokémon (primário ou secundário)
+- Busca Pokémon por nome
+- Interface intuitiva para aplicação de filtros
 
-Gráfico de barras da distribuição por tipos
+### 📊 Visualizações interativas
+- Gráfico de barras da distribuição por tipos
+- Gráfico de pizza dos estágios evolutivos
+- Tooltips interativos com detalhes
 
-Gráfico de pizza dos estágios evolutivos
+### 📱 Design responsivo
+- Layout adaptável para desktop e dispositivos móveis
+- Experiência de usuário otimizada para todos os tamanhos de tela
 
-📱 Design responsivo: Funciona em desktop e dispositivos móveis
+### 🎨 Interface moderna
+- Gradientes CSS atraentes
+- Animações suaves e transições
+- Layout limpo e intuitivo
 
-🎨 Interface moderna:
+## 🛠️ Tecnologias Utilizadas
 
-Gradientes, animações suaves e layout limpo
+**Frontend:**
+- HTML5
+- CSS3
+- JavaScript Vanilla
 
-Tecnologias Utilizadas 🛠️
-Frontend: HTML5, CSS3, JavaScript puro
+**Bibliotecas:**
+- [Chart.js](https://www.chartjs.org/) - para visualização de dados
+- [PapaParse](https://www.papaparse.com/) - para análise de CSV
 
-Bibliotecas:
+**Estilização:**
+- Gradientes CSS
+- Efeitos de sombra
+- Layout responsivo com Flexbox/Grid
+- Animações CSS
 
-Chart.js para visualização de dados
+## 📊 Análise de Dados
 
-PapaParse para análise de CSV
-
-Estilização: Gradientes CSS, sombras e layout responsivo
-
-Análise de Dados 📊
 O painel oferece duas visualizações principais:
 
-1. Distribuição por Tipos
-Mostra a frequência de todos os tipos de Pokémon (primários e secundários)
+### 1. Distribuição por Tipos
+![Gráfico de Tipos](./types-chart.png)
+- Mostra a frequência de todos os tipos de Pokémon
+- Gráfico de barras interativo
+- Atualização dinâmica com filtros
 
-Gráfico de barras interativo com detalhes ao passar o mouse
+### 2. Estágios Evolutivos
+![Gráfico de Evolução](./evolution-chart.png)
+- Classificação em 4 categorias evolutivas
+- Gráfico de pizza colorido
+- Legenda interativa
 
-2. Estágios Evolutivos
-Classifica Pokémon em quatro categorias:
+## 🚀 Como Usar
 
-Sem evolução
+### Pré-requisitos
+- Navegador moderno (Chrome, Firefox, Edge)
+- Arquivo CSV com dados de Pokémon
 
-Primeira forma (início da linha evolutiva)
-
-Forma intermediária
-
-Forma final
-
-Gráfico de pizza colorido com tooltips detalhados
-
-Como Usar 🚀
-Pré-requisitos
-Navegador moderno (Chrome, Firefox, Edge)
-
-Arquivo CSV com dados de Pokémon (precisa ter colunas como Name, Type1, Type2 e Evolution)
-
-Passo a Passo
-Abra index.html no seu navegador
-
-Clique em "Escolher arquivo" para enviar seu CSV
-
-Use os filtros:
-
-Selecione um tipo no menu suspenso
-
-Digite no campo de busca para filtrar por nome
-
-Clique em "Filtrar" para aplicar ou "Resetar" para limpar
+### Passo a Passo
+1. Clone o repositório:
+```bash
+git clone https://github.com/seu-usuario/pokemon-dashboard.git
+```html
+Abra o arquivo index.html no seu navegador preferido
+1. Clique no botão "Escolher arquivo"
+2. Navegue até a pasta contendo seu arquivo pokemon.csv
+3. Selecione o arquivo e clique em "Abrir"
